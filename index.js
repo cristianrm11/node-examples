@@ -1,5 +1,8 @@
 var rect = require('./rectangle');
 
+/*
+    With rectangle.js
+*/
 function solveRect (a,b) {
     if (a <= 0 || b <= 0) {
         console.log(`Rectangle dimensions should be greater than zero: a = ${a} and b = ${b}`);
